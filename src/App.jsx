@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import useLocation
 import { ClothingProvider, ClothingContext } from './ClothingContext';
 import Home from './Home';
-import Register from './Register';
+import Register from './register';
 import Work from './Work';
 import Chef from './work/chef';
 import Designer from './work/designer';
