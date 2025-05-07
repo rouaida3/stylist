@@ -14,7 +14,7 @@ function Character({ clothing, selectionOrder }) {
 
   // Define the image sources based on selected clothing
   const layerSources = {
-    base: '/images/base.png',
+    base: '/images/base.webp',
     hair: clothing.hair,
     top: clothing.top,
     bottom: clothing.bottom,
