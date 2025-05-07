@@ -34,6 +34,8 @@ function LayoutPage() {
       { name: 'Hair 8', thumbnail: '/thumbnails/hair8.webp', overlay: '/images/hair8.webp' },
       { name: 'Hair 9', thumbnail: '/thumbnails/hair9.webp', overlay: '/images/hair9.webp' },
       { name: 'Hair 10', thumbnail: '/thumbnails/hair10.webp', overlay: '/images/hair10.webp' },
+      { name: 'Hair 11', thumbnail: '/thumbnails/hair11.webp', overlay: '/images/hair11.webp' },
+
     ],
     top: [
       { name: 'Top 1', thumbnail: '/thumbnails/top1.webp', overlay: '/images/top1.webp' },
@@ -46,6 +48,8 @@ function LayoutPage() {
       { name: 'Top 8', thumbnail: '/thumbnails/top8.webp', overlay: '/images/top8.webp' },
       { name: 'Top 9', thumbnail: '/thumbnails/top9.webp', overlay: '/images/top9.webp' },
       { name: 'Top 10', thumbnail: '/thumbnails/top10.webp', overlay: '/images/top10.webp' },
+      { name: 'Top 11', thumbnail: '/thumbnails/top11.webp', overlay: '/images/top11.webp' },
+
     ],
     bottom: [
       { name: 'Bottom 1', thumbnail: '/thumbnails/bottom1.webp', overlay: '/images/bottom1.webp' },
@@ -59,6 +63,8 @@ function LayoutPage() {
       { name: 'Bottom 9', thumbnail: '/thumbnails/bottom9.webp', overlay: '/images/bottom9.webp' },
       { name: 'Bottom 10', thumbnail: '/thumbnails/bottom10.webp', overlay: '/images/bottom10.webp' },
       { name: 'Bottom 11', thumbnail: '/thumbnails/bottom11.webp', overlay: '/images/bottom11.webp' },
+      { name: 'Bottom 12', thumbnail: '/thumbnails/bottom12.webp', overlay: '/images/bottom12.webp' },
+
     ],
     jacket: [
       { name: 'Jacket 1', thumbnail: '/thumbnails/jacket1.webp', overlay: '/images/jacket1.webp' },
@@ -108,6 +114,30 @@ function LayoutPage() {
       { name: 'Glasses 8', thumbnail: '/thumbnails/glasses8.webp', overlay: '/images/glasses8.webp' },
       { name: 'Glasses 9', thumbnail: '/thumbnails/glasses9.webp', overlay: '/images/glasses9.webp' },
       { name: 'Glasses 10', thumbnail: '/thumbnails/glasses10.webp', overlay: '/images/glasses10.webp' },
+    ],
+    necklace: [
+      { name: 'necklace 1', thumbnail: '/thumbnails/necklace1.webp', overlay: '/images/necklace1.webp' },
+      { name: 'necklace 2', thumbnail: '/thumbnails/necklace2.webp', overlay: '/images/necklace2.webp' },
+      { name: 'necklace 3', thumbnail: '/thumbnails/necklace3.webp', overlay: '/images/necklace3.webp' },
+      { name: '4', thumbnail: '/thumbnails/necklace4.webp', overlay: '/images/necklace4.webp' },
+      { name: '5', thumbnail: '/thumbnails/necklace5.webp', overlay: '/images/necklace5.webp' },
+      { name: '6', thumbnail: '/thumbnails/necklace6.webp', overlay: '/images/necklace6.webp' },
+      { name: '7', thumbnail: '/thumbnails/necklace7.webp', overlay: '/images/necklace7.webp' },
+      { name: '8', thumbnail: '/thumbnails/necklace8.webp', overlay: '/images/necklace8.webp' },
+      { name: '9', thumbnail: '/thumbnails/necklace9.webp', overlay: '/images/necklace9.webp' },
+      { name: '10', thumbnail: '/thumbnails/necklace10.webp', overlay: '/images/necklace10.webp' },
+    ],
+    earrings: [
+      { name: '1', thumbnail: '/thumbnails/earrings1.webp', overlay: '/images/earrings1.webp' },
+      { name: '2', thumbnail: '/thumbnails/earrings2.webp', overlay: '/images/earrings2.webp' },
+      { name: '3', thumbnail: '/thumbnails/earrings3.webp', overlay: '/images/earrings3.webp' },
+      { name: '4', thumbnail: '/thumbnails/earrings4.webp', overlay: '/images/earrings4.webp' },
+      { name: '5', thumbnail: '/thumbnails/earrings5.webp', overlay: '/images/earrings5.webp' },
+      { name: '6', thumbnail: '/thumbnails/earrings6.webp', overlay: '/images/earrings6.webp' },
+      { name: '7', thumbnail: '/thumbnails/earrings7.webp', overlay: '/images/earrings7.webp' },
+      { name: '8', thumbnail: '/thumbnails/earrings8.webp', overlay: '/images/earrings8.webp' },
+      { name: '9', thumbnail: '/thumbnails/earrings9.webp', overlay: '/images/earrings9.webp' },
+      { name: '10', thumbnail: '/thumbnails/earrings10.webp', overlay: '/images/earrings10.webp' },
     ],
     accessories: [
       { name: 'Accessory 1', thumbnail: '/thumbnails/accessory1.webp', overlay: '/images/accessory1.webp' },

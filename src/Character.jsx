@@ -23,8 +23,9 @@ function Character({ clothing, selectionOrder }) {
     glasses: clothing.glasses,
     shoes: clothing.shoes,
     belt: clothing.belt,
-    accessories: clothing.accessories,
     necklace: clothing.necklace,
+    earrings:clothing.earrings,
+    accessories: clothing.accessories,
 
   };
 
