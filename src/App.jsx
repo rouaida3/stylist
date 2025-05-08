@@ -1,12 +1,8 @@
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import useLocation
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ClothingProvider, ClothingContext } from './ClothingContext';
 import Home from './Home';
 import Register from './register';
-import Work from './Work';
-import Chef from './work/chef';
-import Designer from './work/designer';
-import Pharmacist from './work/pharmacist';
 import Header from './Header';
 import ClothingSelector from './ClothingSelector';
 import Character from './Character';
@@ -211,21 +207,10 @@ function LayoutPage() {
 }
 
 function AppRoutes() {
-  const location = useLocation();
-
-  // List of routes that do NOT use the main layout
-  const fullPageRoutes = ['/register', '/work', '/work/chef', '/work/designer', '/work/pharmacist'];
-
-  const isFullPage = fullPageRoutes.includes(location.pathname);
-
   return (
     <Routes>
       <Route path="/" element={<LayoutPage />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/work" element={<Work />} />
-      <Route path="/work/chef" element={<Chef />} />
-      <Route path="/work/designer" element={<Designer />} />
-      <Route path="/work/pharmacist" element={<Pharmacist />} />
     </Routes>
   );
 }
