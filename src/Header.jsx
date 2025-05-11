@@ -10,9 +10,6 @@ function Header() {
         <Link to="/register">
           <button>Register</button>
         </Link>
-        <Link to="/work">
-          <button>Work</button>
-        </Link>
       </div>
     </header>
   );
